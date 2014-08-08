@@ -6,6 +6,8 @@
 	<packaging>war</packaging>
 	<version>1.0</version>
 	<name>ooredoo</name>
+	
+	
 	<repositories>
 		<repository>
 			<id>eap</id>
@@ -52,6 +54,49 @@
 			<version>3.0.1</version>
 			<scope>provided</scope>
 		</dependency>
+		 <dependencies>
+         <dependency>
+            <groupId>javax</groupId>
+            <artifactId>javaee-web-api</artifactId>
+            <version>6.0</version>
+            <scope>provided</scope>
+        </dependency>
+        
+        <dependency>
+	<groupId>asm</groupId>
+	<artifactId>asm-all</artifactId>
+	<version>3.2</version>
+        </dependency>
+
+        <dependency>
+	<groupId>com.sun.jersey</groupId>
+	<artifactId>jersey-client</artifactId>
+	<version>1.17</version>
+        </dependency>
+        
+        <dependency>
+	<groupId>com.sun.jersey</groupId>
+	<artifactId>jersey-core</artifactId>
+	<version>1.17</version>
+        </dependency>
+     
+        <dependency>
+	<groupId>com.sun.jersey</groupId>
+	<artifactId>jersey-servlet</artifactId>
+	<version>1.17</version>
+        </dependency>
+        
+        <dependency>
+	<groupId>javax.ws.rs</groupId>
+	<artifactId>jsr311-api</artifactId>
+	<version>1.1.1</version>
+        </dependency>
+        
+        <dependency>
+	<groupId>mysql</groupId>
+	<artifactId>mysql-connector-java</artifactId>
+	<version>5.1.31</version>
+        </dependency>
 	</dependencies>
 	<profiles>
 		<profile>
